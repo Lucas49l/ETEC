@@ -1,0 +1,9 @@
+MODELO ENTIDADE RELACIONAMENTO (MER)
+  .Banco de Dados (guardar dados organizadamente, informaçoes sobre determinado assunto)
+  .Banco de Dados Relacionais (Modelo Padrão do MER, utilizado em todos os BD's)
+
+  Sistema Gerenciador de Banco de Dados (SGBDR)
+    .Conjunto de programas que permite a implementação de BD
+    .Administra, cria bancos, tabelas, usuarios e senhas.
+
+  DBA.
