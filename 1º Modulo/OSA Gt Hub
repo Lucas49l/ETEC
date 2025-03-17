@@ -1,0 +1,130 @@
+O que é um sistema de controle de versão
+
+Assim que desenvolvedores criam um projeto eles continuam atualizando por código base. Mesmo depois de o projeto ser lançado a atualização para novas versões é, correção de bugs, adição de novas ferramentas, é muito vista.
+O sistema de controle de versão facilita no acompanhamento de mudanças no código base, ele registra também quem mudou e  restaura o código deletado ou modificado.
+
+
+
+
+Para que serve o git hub
+
+O GitHub é uma plataforma de    desenvolvimento colaborativa que guarda projetos na nuvem usando por meio do Git, nela os desenvolvedores conseguem armazenar e administrar o código e fazer se o registro de mudanças, o código aberto, permite realizar projetos compartilhados e manter  todos atualizados em relação ao seu  progresso. A plataforma também funciona como rede social, conectando os desenvolvedores com os usuários. Como usuário, você pode descarregar programas ou aplicativos, deixando seu trabalho em vitrine, adicionar a plataforma do GitHub ao seu currículo, pode ajudar a comprovar a sua experiência acadêmica, na plataforma o usuário pode também contribuir com seu desenvolvimento oferecendo melhorias e falando sobre questões dos fóruns temáticos.
+
+
+Como criar uma conta no git hub?
+
+Para criar uma conta no GitHub basta clicar em inscrever-se, adicionar seu nome de e-mail, escolher uma senha e concluir inscrição, para o acesso do GitHub, o usuário deve voltar a tela de início e clicar em entrar no canto superior direito da tela, inserir seus dados e concluir, assim o acesso ao GitHub foi concluído.
+
+
+Como Usar o GitHub
+
+Para iniciar o processo, siga esses passos:
+
+1 Clique em Create a repository (criar um repositório) para começar um novo projeto. 
+
+2 Informe um nome sem espaços e caracteres especiais, de preferência um nome curto e fácil de memorizar. Por exemplo: "hello-world" (ola-mundo). 
+
+3 Se desejar, adicione uma descrição do repositório. Por exemplo, "My first repository on GitHub" (Meu primeiro repositório no GitHub).
+
+4Informe a visibilidade do seu repositório:
+Public: Qualquer pessoa na internet pode ver este repositório.  Internal: Repositório da organização e que será visivel somente a seus colaboradores. Obs: Essa opção só vai aparecer para você, se sua conta do GitHub for empresarial.  Private: Você decide quem pode visualizar e contribuir com este repositório.
+
+
+
+Recursos do Git:
+
+Repositório:
+Um repositório Git é onde todo o histórico de um projeto é armazenado, nele contém 
+ os arquivos, pastas e histórico de alterações do projeto de forma cronológica.
+
+Commit:
+Um commit é uma função que registra as alterações feitas nos arquivos.
+
+Branch:
+Ele permite que trabalhem em novas funções ou correções de bugs sem prejudicar o código principal do projeto.
+
+Merge:
+Merge combina as alterações de um branch para outro, é comumente usado para intercalar o código de uma branch de desenvolvimento para a branch principal do projeto.
+
+
+Comandos do Git:
+git init:
+Inicializa um novo repositório Git no diretório atual.
+
+git add <file>:
+Adiciona um arquivo ao índice (staging area) para ser incluído no próximo commit.
+
+git commit -m "<message>":
+Registra as alterações feitas nos arquivos e cria um novo commit com a mensagem dada.
+
+git status:
+Mostra a forma atual do repositório, como  arquivos modificados, arquivos prontos para commit e o branch atual.
+
+git branch:
+Lista todos os branches no repositório e mostra qual branch está sendo utilizado.
+
+git checkout <branch>:
+Muda para o branch especificado.
+
+git merge <branch>:
+Intercala as alterações do branch especificado para o branch atual.
+
+
+
+Comandos do GitHub
+
+Os principais comandos do GitHub que são os seguintes:
+
+git clone( git clone <URL do repositório>)
+Este comando é para criar uma cópia de um repositório remoto do GitHub para o seu computador, para começar a trabalhar em um projeto.
+
+git add(git add <nome do arquivo>  # Adicionar um arquivo específico
+git add .  # Adicionar todos os arquivos modificados)
+Este comando é usado para realizar mudanças em arquivos ao próximo "commit", e permite que você especifique quais arquivos devem ser incluídos na próxima versão do projeto.
+
+git commit(git commit -m "Mensagem do commit")
+
+O comando é usado para criar um novo commit, é importante adicionar uma mensagem de commit descritiva para explicar as mudanças feitas e facilitar para quem esta lendo o código.
+
+
+git pull(git pull)
+Comando usado para ver as recentes mudanças do repositório remoto para a sua cópia local do projeto.
+
+git push(git push origin <nome da branch>)
+O comando envia suas mudanças para o repositório no GitHub, para assim compartilhar com outros da equipe.
+
+
+git branch(git branch  # Listar todas as branches
+git branch <nome da branch>  # Criar uma nova branch
+git branch -d <nome da branch>  # Deletar uma branch
+git checkout <nome da branch>  # Mudar para uma branch específica)
+Comando usado para criar, listar e gerenciar branches, é usados para separar diferentes fluxos de trabalho e facilitar o trabalho em equipe.
+
+
+git merge(git merge <nome da branch>)
+Comando usado para combinar as mudanças de uma branch em outra, conseguindo ter diferentes branches em um só projeto.
+
+
+
+Recursos do GitHub:
+
+Repositórios Remotos:
+GitHub permite hospedar repositórios Git remotamente, deixando que outros colaboradores acessem, facilitando o trabalho em equipe.
+
+Issues:
+Issues são usadas para rastrear tarefas, bugs ou pedidos de novos recursos.
+
+Pull Requests:
+Pull Requests são usados para realizar alterações no código-fonte e misturar essas alterações em um branch específico, permitem revisão de código e discussão antes de realizar as alterações no repositório principal.
+
+Forks:
+Um fork é uma cópia de repositório GitHub, nele você pode alterar sem afetar o repositório original e enviar pull requests para contribuir com o projeto original.
+
+
+
+
+
+Conclusão 
+
+Git e GitHub são ferramentas usadas no desenvolvimento de software conjuntivos, entendendo os conceitos principais do Git e os comandos básicos permite que os desenvolvedores gerenciem o código-fonte de forma eficaz, enquanto o GitHub hospeda os repositórios, o GitHub não é somente para os desenvolvedores, qualquer pessoa que deseja gerenciar seu projeto e trabalhar com outros colaboradores pode usar o GitHub.
+Se sua equipe trabalha em um projeto que precisa de atualizações continuas e gostam de acompanhar como as mudanças são feitas, então o GitHub é uma boa opção .
