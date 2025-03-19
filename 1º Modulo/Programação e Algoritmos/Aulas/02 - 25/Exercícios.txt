@@ -1,0 +1,5 @@
+1° Faça um algoritmo no qual o usuário digite o nome e a idade.
+2° Faça um algoritmo que receba 2 valores, faça a soma e mostre o resultado.
+3° Faça um algoritmo que receba 3 notas, retire a média e mostre o resultado.
+4° Faça um algoritmo que calcule a área do triângulo.
+5° Faça um algoritmo que calcule a área do quadrado e calcule o perimetro do quadrado.
