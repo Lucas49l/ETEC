@@ -1,0 +1,5 @@
+
+  ESTRUTURA DE DECISÃO:
+
+  1° Faça um algoritmo que receba um valor pelo usuário e diga se é impar ou par.
+  2° Um algoritmo que recebe 3 notas e retire a média, se nota <5 reprovado, se nota >=7 aprovado e se nota >=5 e <7 recuperação.
