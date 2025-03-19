@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem</title>
 
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 18px;
+        }
+        h1, h2{
+            margin: 30px 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 2em;
+            font-weight: 100;
+        }
+        h1,.sub{
+            text-align: center;
+        }
+        .container{
+        text-align: center;
+        }
+        p{
+            margin: 25px 30px;
+        }
+        .bolder{
+        color: blue;
+        }
+
+        span{
+            color: black;
+        }
+
+        img{
+            width: 500px;
+            height: auto;
+            margin: 0 10px;
+        }
+        .capturar2{
+            width: 250px;
+            height: auto;
+            margin-left: 1em ;
+
+        }
+        .codimg{
+            color:blue;
+        }
+        .imgfinal {
+        display: block;
+        margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inserindo imagem na Página</h1>
+    <p class="sub">Para colocar a imagem usamos a tag &lt;img&gt;</p>
+    
+    <h2>Exemplo:</h2>
+    
+    <p class="bolder">&lt;img usr = "nomedaimagem.tipo"&gt; <span>ou</span> &lt;img usr = "pasta/nomedaimagem.tipo"&gt;</p>
+
+    <p>Nesse caso a imagem está dentro da pasta "img"</p>
+    
+    <div class="container">
+        <img src="img/Capturar.png">
+        <img src="img/Capturar2.png" class="capturar2">
+    </div>
+    
+    <p class="sub">O código ficará assim: <span class="codimg">&lt;img src="img/imagem.jpg"&gt;</span></p>
+    
+    <img class="imgfinal" src="img/imagem.jpg">
+</body>
+</html>
