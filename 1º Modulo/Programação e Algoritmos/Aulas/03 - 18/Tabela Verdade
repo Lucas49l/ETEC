@@ -1,0 +1,11 @@
+E (&&) V=1 F=0 *LOGIN E SENHA  
+          V    V    V
+          V    F    F
+          F    V    F
+          F    F    F
+
+OU (||) V=1 F=0 *MAIOR DE IDADE OU ACOMPNHADO
+          V    V    V
+          V    F    V
+          F    V    V
+          F    F    F
