@@ -1,0 +1,17 @@
+Fundo da Página cor/Imagem:
+	
+  IMAGEM:
+	background = "link da imagem"  
+	background = "PASTA/NOMEDAIMAGEM.tipo"
+	background = "NOMEDAIMAGEM.tipo"
+	
+	Exemplo:	
+		<body background = "Nome da Imagem.tipo">	
+
+	COR:
+	bgcolor = #ffffff
+	bgcolor = white
+	bgcolor = rgb(200,200,200)
+
+	Exemplo:	
+		<body bgcolor = "Blue">
