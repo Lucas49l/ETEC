@@ -1,0 +1,26 @@
+Tags de Titulos:
+	<h1></h1>
+	<h2></h2>
+	<h3></h3>
+	<h4></h4>
+	<h5></h5>
+	<h6></h6>
+
+<Font> e </Font>
+	face: tipo de font  
+	size: tamanho da (fonte valores de 1 á 7)
+	color: cor da font 
+	
+	exemplo:	<h1><font face="Arial" size="7" color="#00ff55"> Titulo </font> </h1> 
+		<p><font face="Arial" size="4" color="#00ff40"> Conteudo </font> </p> 
+
+
+<p></p> : Paragrafo
+
+<br>:Quebra de linha
+
+align="center" , "left" , "right" ,"justify"
+
+
+	exemplo:	<h1 align= "center"><font face="Arial" size="7" color="#00ff55"> Titulo </font> </h1> <br>
+		<p align= "justify"><font face="Arial" size="4" color="#00ff40"> Conteudo </font> 
