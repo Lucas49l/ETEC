@@ -1,0 +1,1 @@
+1° Faça um algoritmo no portugol, em javascript, no qual o usuario entra com tres valores, descubra qual tipo de triangulo sera formado, se é isoceles dois lados iguais e um diferente , escaleno tres lados diferentes, ou equilatero tres lados iguais

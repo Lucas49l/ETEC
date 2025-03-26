@@ -1,0 +1,86 @@
+/*Colocando as Fontes que baixadas do glogle Fonts*/
+@font-face {
+    font-family:"BonaNova" ;
+    src: url(/font/Bona_Nova_SC/BonaNovaSC-Bold.ttf);
+}
+@font-face {
+    font-family:"BonaNovaItalic" ;
+    src: url(/font/Bona_Nova_SC/BonaNovaSC-Italic.ttf);
+}
+@font-face {
+    font-family:"kablammo" ;
+    src: url(/font/Kablammo/Kablammo-Regular-VariableFont_MORF.ttf);
+}
+
+body{
+    width: 920px;/*Definindo o tamanho do body com width e height */
+    height: 39.4em;
+    margin: auto;/*margin auto para centralizar todo o body*/
+    padding: 10px;/*aumentar o espaço interno*/
+    background: linear-gradient(to bottom, #d66508,#2196f3,#000000);/*cor de fundo*/
+    background-repeat: no-repeat;/*impede que o gradiente repita*/
+}
+h1{
+    font-family:"kablammo";/*Tipo de fonte*/
+    color: #ffffff;/*cor da fonte*/
+    font-size: 3em;/*tamanho da fonte*/
+    text-align: center;/*centralizar o texto*/
+    margin-bottom: 20px;/*aumentar o espaço externo*/
+    text-shadow: 5px 5px 5px #071e31;/*adicionando uma sobra no texto*/
+}
+table{
+    background-color: #2196f3;/*Fundo*/
+    box-shadow: -20px 20px 20px rgba(35, 1, 41, 0.403);/*Sombra na borda da tabela*/
+    width: 95%;/*a tabela pegará 95% do espaço lateral do body*/
+    margin: 0 auto; /*centralizando a tabela dentro do body*/
+}
+table tr td { 
+    padding: 10px 5px;/*aumentando o espaço interno das cédulas 10 para cima e baixo e 5 para os lados */
+    text-align: center;/*centraliza o texto dentro da tabela*/
+    width: 180px; /*largura das cedulas*/
+    height: 20px; /*altura das cedulas */
+    font-family: "BonaNova";/*Fonte*/
+    font-size: 18px;/*Tamanho da fonte*/
+    color: #071e31;/*cor*/
+}
+/*borda em volta do menu e cor de fundo*/
+table .menu{
+    border: 3px solid #000000;
+    background-color: #071e31;
+}
+/*Fonte, cor, negrito e espaço interno*/
+.menu td{
+    font-family:"BonaNovaItalic";
+    font-weight: bolder;
+    font-size: 32px;
+    color: #2196f3;
+    padding: 3px;
+}
+/*borda na tabela toda*/
+table .tabela td{
+    border: solid 3px #000000;
+
+}
+/*retiran*/
+.tabelaimagem td{
+    padding: 0;
+    border: 3px solid #000000;
+}
+.tabelaimagem img{
+    width: 80%;
+    height: 5em;
+    border: 2px solid #000000 ;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.tabelaimagem td{
+    height: 90px;
+    background: linear-gradient(to bottom right, #d66508,#2196f3,#000000);
+}
+.professor td{
+    font-family:"BonaNovaItalic";
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
