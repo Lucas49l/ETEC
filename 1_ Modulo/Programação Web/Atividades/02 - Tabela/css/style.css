@@ -1,17 +1,16 @@
-/*Colocando as Fontes que baixadas do glogle Fonts*/
-@font-face {
+/*Colocando as Fontes baixadas do glogle Fonts no css*/
+@font-face{
     font-family:"BonaNova" ;
-    src: url(/font/Bona_Nova_SC/BonaNovaSC-Bold.ttf);
+    src: url("../font/Bona_Nova_SC/BonaNovaSC-Bold.ttf");
 }
-@font-face {
+@font-face{
     font-family:"BonaNovaItalic" ;
-    src: url(/font/Bona_Nova_SC/BonaNovaSC-Italic.ttf);
+    src: url("../font/Bona_Nova_SC/BonaNovaSC-Italic.ttf");
 }
-@font-face {
+@font-face{
     font-family:"kablammo" ;
-    src: url(/font/Kablammo/Kablammo-Regular-VariableFont_MORF.ttf);
+    src: url("../font/Kablammo/Kablammo-Regular-VariableFont_MORF.ttf");
 }
-
 body{
     width: 920px;/*Definindo o tamanho do body com width e height */
     height: 39.4em;
@@ -34,7 +33,7 @@ table{
     width: 95%;/*a tabela pegará 95% do espaço lateral do body*/
     margin: 0 auto; /*centralizando a tabela dentro do body*/
 }
-table tr td { 
+table tr td{ 
     padding: 10px 5px;/*aumentando o espaço interno das cédulas 10 para cima e baixo e 5 para os lados */
     text-align: center;/*centraliza o texto dentro da tabela*/
     width: 180px; /*largura das cedulas*/
@@ -44,43 +43,51 @@ table tr td {
     color: #071e31;/*cor*/
 }
 /*borda em volta do menu e cor de fundo*/
-table .menu{
-    border: 3px solid #000000;
+table .dia{
+    border: 2px solid #000000;
     background-color: #071e31;
 }
 /*Fonte, cor, negrito e espaço interno*/
-.menu td{
+.dia td{
     font-family:"BonaNovaItalic";
     font-weight: bolder;
     font-size: 32px;
     color: #2196f3;
     padding: 3px;
+    letter-spacing: 4px;
 }
 /*borda na tabela toda*/
 table .tabela td{
-    border: solid 3px #000000;
-
+    border-left: solid 2px #000000;
+    border-right: solid 2px #000000;
+    border-bottom: solid 1px black;
 }
-/*retiran*/
+/*borda nas cedulas da imagem e removendo todo espaço interno*/
 .tabelaimagem td{
     padding: 0;
-    border: 3px solid #000000;
+    border: 2px solid #000000;
 }
+/* Tamnho das imagens, borda nas imagens e aredondando as lados inferiores delas*/
 .tabelaimagem img{
     width: 80%;
     height: 5em;
-    border: 2px solid #000000 ;
+    border-top: none;
+    border-right: 2px solid #000000;
+    border-left: 2px solid  #000000;
+    border-bottom: 2px solid #000000 ;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
 }
+/*Fundo gradiante das imagens*/
 .tabelaimagem td{
-    height: 90px;
     background: linear-gradient(to bottom right, #d66508,#2196f3,#000000);
 }
+/*estilizando os nomes dos professores*/
 .professor td{
     font-family:"BonaNovaItalic";
     font-size: 16px;
     font-weight: bold;
-    color: #ffffff;
-    letter-spacing: 2px;
+    color: rgb(225, 246, 255);
+    letter-spacing: 2px;/*Espaço entre as letras*/
+    background-color: #000000a9;
 }
