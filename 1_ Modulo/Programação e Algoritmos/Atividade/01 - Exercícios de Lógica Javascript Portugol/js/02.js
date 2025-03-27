@@ -1,5 +1,6 @@
-var a = parseFloat(5.20);
-var b = parseFloat(4); 
-var c = parseFloat(30);
-var resultado= (a*b)*c;
-console.log("O total gasto no mês com transporte é: ", resultado)
+
+var passagem = parseFloat(5.20);
+var qntPassagem = parseFloat(4); 
+var dias = parseFloat(30);
+var totalGasto= (passagem*qntPassagem)*dias;
+console.log("O total gasto no mês com transporte é: ", totalGasto)
