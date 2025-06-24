@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números Ordenados</title>
+    <style>
+        body{
+            background-color: #2a2828;
+        }
+        h1{
+            color: aliceblue;
+        }
+        #content{
+            width: 500px;
+            height: 200px;
+            background-color: #000000;
+            text-align: center;
+            place-items: center;
+            margin: auto;
+        }
+        input{
+            width: 100px;
+            text-align: center;
+        }
+        button{
+            display: block;
+            margin-top: 20px;
+
+        }
+        #resultado{
+            width: 95px;
+            height: 20px;
+            border: 1px solid #000000;
+            background-color: aliceblue;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Ordenar Numeros</h1>
+        <input type="number" class="valor" placeholder="Valor 1" value="">
+        <input type="number" class="valor" placeholder="Valor 2" value="">
+        <input type="number" class="valor" placeholder="Valor 3" value="">
+        <button onclick="crescente()">Ordenar</button>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>

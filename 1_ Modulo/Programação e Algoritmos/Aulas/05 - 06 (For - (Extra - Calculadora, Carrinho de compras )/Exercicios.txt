@@ -1,0 +1,7 @@
+1° faça um algoritmo, usando o laço de repetição para de 1 até 100,
+separe os numeros impares dos pares, some o total de pares e 
+total de numeros impares, ferifique qual é maior.
+
+2° Soma dos indices 1..10 com for.
+
+3° Tabuada: Explicar o código

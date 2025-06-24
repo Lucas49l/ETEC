@@ -1,0 +1,1 @@
+01° Faça um algoritmo de 1 até 100 separe os numeros pares

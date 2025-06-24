@@ -1,0 +1,25 @@
+//
+const listPar=[]
+const listImpar=[]
+
+totalPar = 0
+totalImpar = 0
+for(let i = 0; i<=100; i++){
+    if(i!=0){   
+        if(i%2==0){
+            listPar[i]=i;
+            totalPar = totalPar+i;
+
+        }else{
+            listImpar[i]=i
+            totalImpar = totalImpar+i;
+        }
+    }    
+}
+console.log("Numeros Pares:")
+console.log(`${listPar.join(" ")}`);
+console.log(`Total da soma dos numeros pares = ${totalPar}`)
+console.log("")
+console.log("Numeros Impares:")
+console.log(`${listImpar.join(" ")}`);
+console.log(`Total da soma dos numeros impares = ${totalImpar}`)

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="carrinho">
+        <h1>Carrinho: <span id="total"></span></h1>
+        <span id="lista"></span>
+    </div>
+
+    <div class="fundo">
+        <div>
+            <h1>Item1</h1>
+            <h2 id="preço">100.00</h2>
+            <button onclick="adicionar(100)"  class="add addi_tem3">Adicionar</button>
+            <button class="retirar retirar_item1" onclick="remover1(100)">Remover</button>
+        </div>
+        
+        <div>
+            <h1>Item2</h1>
+            <h2 id="preço">200.00</h2>
+            <button onclick="adicionar(200)"  class="add addi_tem3">Adicionar</button>
+            <button class="retirar retirar_item2" onclick="remover2(200)">Remover</button>
+
+        </div>
+        <div>
+            <h1>Item3</h1>
+            <h2 id="preço">99.50</h2>
+            <button onclick="adicionar(99.50)" class="add addi_tem3" >Adicionar</button>
+            <button class="retirar retirar_item1" onclick="remover3(99.50)">Remover</button>
+
+        </div>
+    </div>
+
+
+    <script src="compra.js"></script>
+</body>
+</html>

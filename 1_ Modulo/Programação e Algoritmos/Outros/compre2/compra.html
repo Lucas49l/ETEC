@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div class="fundo">
+        <div>
+            <h1>Item1</h1>
+            <h2 id="preço1">100.00</h2>
+            <button class="add" onclick="adicionar(this, 100.00)">Adicionar</button>
+            <button class="remo" onclick="tirar(this, 100.00)">Remover</button>
+        </div>
+        
+        <div>
+            <h1>Item2</h1>
+            <h2 id="preço2">200.00</h2>
+            <button class="add" onclick="adicionar(this, 200.00)">Adicionar</button>
+            <button class="remo" onclick="tirar(this, 200.00)">Remover</button>
+
+        </div>
+        <div>
+            <h1>Item3</h1>
+            <h2 id="preço3">99.50</h2>
+            <button class="add" onclick="adicionar(this, 99.50)">Adicionar</button>
+            <button class="remo" onclick="tirar(this, 99.50)">Remover</button>
+        </div>
+        <p>Total: <span id="total"></span></p>
+    </div>
+    
+
+
+    <script src="compra.js"></script>
+</body>
+</html>

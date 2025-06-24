@@ -1,0 +1,12 @@
+Faça uma algoritmo em Portugol e Java Script 
+Utilizar if else 
+Utilizar SWITCH CASE 
+A velocidade permitida em uma via é de 50 km por hora
+se velocidade maior que 50 até 60 aplicar multa de 15%
+se velocidade maior que 60 até 70 aplicar multa de 25% 
+se velocidade de maior que 70 até 80 aplicar multa de 
+35%
+se velocidade maior 80 aplicar multa de 50%
+Se velocidade igual ou menor que zero velocidade 
+inválida
+o valor da multa é de 250 Reais

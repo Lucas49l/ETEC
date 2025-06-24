@@ -1,0 +1,6 @@
+Faça um algoritmo utilizando o laço de repetição for para permitir ao usuário 
+a entrada de 4 notas de 0 á 10
+e calcule a média dessas notas.
+
+Faça um algoritmo usando laço de repetição de 1 até 3, entre com tres valores, ordene em
+ordem crescente

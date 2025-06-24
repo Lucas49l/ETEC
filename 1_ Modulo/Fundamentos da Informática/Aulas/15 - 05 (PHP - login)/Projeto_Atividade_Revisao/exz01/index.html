@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">    
+        <!--Head - Configurações da página-->
+    <head>
+        <meta charset="UTF-8"> <!--Referente ao Brasil, para o navegador reconhecer os caracteres-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--viewport configurações para dispositivos-->
+        <title>Exercício01</title>
+    </head>
+    <body>
+        <!--<FORM>: tag para formulário-->
+        <!--METHOD - diz para o formulário o que ele vai fazer-->
+        <!--POST - inserindo dados no sistema-->
+        <!--ACTION - ação que envia os dados, que faz o post-->
+        <form method="POST" action="index.php">
+            <h1>Login</h1>
+            <!--input pegar o que o usuário inserir-->
+            <!--PLACEHOLDER - texto dentro do campo/input -->
+            <input type="text" name="nomeUsuario" placeholder="Digite o usuário">
+            <!--PASSWORD - texto do tipo senha-->
+            <input type="password" name="senhaUsuario" placeholder="Digite a senha">
+            <!--SUBMIT - Enviar/submeter o que o usuario digitou dentro do sistema-->
+            <!--VALUE ?- -->
+            <input type="submit" name="logar" value="logar">
+        </form>
+    </body>
+</html>

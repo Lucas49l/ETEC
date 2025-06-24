@@ -1,0 +1,49 @@
+
+
+.fundo{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+
+    justify-content: center;
+
+    border:none;
+    width: 90%;
+    height: 200px;
+
+    margin:auto;
+    
+}
+
+/*#carrinho{
+    display:flexbox;
+    height: 100vh;
+}*/
+
+div{
+    border:2px solid black;
+    text-align: center;
+    width: 200px;
+}
+
+
+button{
+    display: block;
+    margin: 10px auto;
+    
+}
+.remo{
+    display: block;
+    visibility:hidden;
+}
+.remoVisible{
+    display: block;
+    visibility:visible;
+}
+
+#total{
+    display: inline-block;
+    border: 2px solid;
+    width: 100px;
+    height: 20px;
+    vertical-align: bottom;
+}
