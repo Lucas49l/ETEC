@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+} 
+
+.class1{
+    display: inline-block;
+    background:url(../img/imagem.jpg);
+    background-size: 400px ;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: 10% 50%;
+
+    height: 300vh;
+    width: 300px;
+    border: 1px solid;
+}
+.class2{
+    display: inline-block;
+    background:url(../img/img2.jpeg);
+    background-size: 100px 100px;
+    background-repeat: repeat-x;
+
+    height: 300vh;
+    width: 300px;
+    border: 1px solid;
+}
+.class3{
+    display: inline-block;
+    background:url(../img/img\ 3.jpeg);
+    background-size: 100px 100px;
+
+    background-repeat:space;
+    margin: 30px 10px;
+    padding: 5%;
+    height: 300vh;
+    width: 300px;
+    border: 1px solid;
+}

@@ -1,0 +1,12 @@
+.color{
+    background: linear-gradient(red, black, white);
+} 
+
+h1{
+    background-color: rgb(199, 154, 241);
+
+}
+p{
+    background-color: rgb(62, 144, 144);
+
+}

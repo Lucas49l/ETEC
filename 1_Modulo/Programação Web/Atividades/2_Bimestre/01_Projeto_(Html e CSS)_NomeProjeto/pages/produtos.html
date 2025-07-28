@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Neo Gadget - Produtos</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a class="paginaAtual" href="../pages/produtos.html">Produtos</a></li>
+                    <li><button  class="botaoSobre" onclick="sobre()">Sobre</button></li>
+                    <li class="headerRegistro"><a href="../registro.html">Registar</a></li>
+                    <li class="headerEntrar"><a href="../entrar.html">Entrar</a></li>
+                </ul>
+            </nav>
+            <div id="sobre">
+                <h2 class="tituloSobre">Sobre Nós</h2>
+                <p class="textoSobre">Na TechXpert, acreditamos que a tecnologia tem o poder de transformar vidas e impulsionar o futuro. Somos uma empresa dedicada a oferecer notebooks e tablets de alto desempenho, combinando qualidade, inovação e preços acessíveis. Nosso compromisso é garantir que cada cliente encontre o dispositivo ideal para suas necessidades, seja para trabalho, estudo ou lazer. Com um time especializado e um atendimento personalizado, estamos aqui para facilitar sua jornada digital. Conectando Você ao Futuro – Tecnologia acessível e de ponta, sempre ao seu alcance.</p>
+
+                <h2 class="tituloSobre">Tablets e Notebooks de Alta Performance</h2> 
+                <p class="textoSobre">Explore nossa linha de dispositivos modernos, feitos para quem busca tecnologia de ponta com praticidade e desempenho.</p>
+
+                <h2 class="tituloSobre">Inovação e Qualidade Garantida</h2> 
+                <p class="textoSobre">Oferecemos produtos com as melhores configurações e preços acessíveis, garantindo uma experiência única para trabalho, estudo e lazer.</p>
+
+                <h2 class="tituloSobre">Compra Fácil, Entrega Rápida</h2> 
+                <p class="textoSobre">Nosso site é intuitivo e seguro, com diversas opções de pagamento e envio ágil para todo o Brasil.</p>
+
+                <h2 class="tituloSobre">Suporte Especializado</h2> 
+                <p class="textoSobre">Nossa equipe está pronta para ajudar você a escolher o melhor dispositivo e solucionar qualquer dúvida.</p>
+            </div>
+        </header>
+        <main id="mainAllProduto">
+            <h1 class="tituloPrincipal">Neo Gadget</h1>   
+            <input id="pesquisa" type="search" placeholder="Pesquisar">
+            
+            <ul class="filtroLista">
+                <button onclick="filtrarON()" id="filtroButton"></button>
+                <div id="filtroItems">
+                    <li><input class="filtro" id="filtro_maiorPreco" type="checkbox"><label for="filtro_maiorPreco">Maior preço</label></li>
+                    <li><input class="filtro" id="filtro_menorPreco" type="checkbox"><label for="filtro_menorPreco">Menor preço</label></li>
+                    <li><input class="filtro" id="filtro_nome" type="checkbox"><label for="filtro_nome">Nome</label></li>
+                </div>
+            </ul>
+            <div id="gridProdutos">
+                <div class="produtos">
+                    <a href="./positivo_Motion_Q464C.html"><img class="imgProdutos" src="../img/Produtos/Positivo_Motion_Q464C_img1.jpeg" alt="imagemProduto"></a>
+                    <h2 class="nomeProduto">Positivo Motion Q464C</h2>
+                    <p class="preco">R$ 1.416</p>
+                    <button class="comprar"><a href="./positivo_Motion_Q464C.html">comprar</a></button>
+                </div>
+
+                <div class="produtos">
+                    <a href="./Acer_Aspire_3_A315_510P_35D2.html"><img class="imgProdutos" src="../img/Produtos/Acer_Aspire_3_A315_510P_35D2_img1.jpeg" alt="imagemProduto"></a>
+                    <h2 class="nomeProduto">Acer Aspire 3 A315-510P-35D2</h2>
+                    <p class="preco">R$ 2.499</p>
+                    <button class="comprar"><a href="./Acer_Aspire_3_A315_510P_35D2.html">comprar</a></button>
+                </div>
+
+                <div class="produtos">
+                    <a href="./Lenovo_IdeaPad_3_82MFS00600.html"><img class="imgProdutos" src="../img/Produtos/Lenovo_IdeaPad_3_82MFS00600_img1.jpeg" alt="imagemProduto"></a>
+                    <h2 class="nomeProduto">Lenovo IdeaPad 3 82MFS00600</h2>
+                    <p class="preco">R$ 3.148</p>
+                    <button class="comprar"><a href="./Lenovo_IdeaPad_3_82MFS00600.html">comprar</a></button>
+                </div>
+
+                <div class="produtos">
+                    <a href="./Tablet_VAIO_TL10.html"><img class="imgProdutos" src="../img/Produtos/Tablet_VAIO_TL10 _img1.jpeg" alt="imagemProduto"></a>
+                    <h2 class="nomeProduto">Tablet VAIO TL10</h2>
+                    <p class="preco">R$ 1.519</p>
+                    <button class="comprar"><a href="./Tablet_VAIO_TL10.html">comprar</a></button>
+                </div>
+
+                <div class="produtos">
+                    <a href="./Samsung_Galaxy_Tab_S6_Lite_(2024).html"><img class="imgProdutos" src="../img/Produtos/Samsung_Galaxy_Tab_S6_Lite_(2024)_img1.jpeg" alt="imagemProduto"></a>
+                    <h2 class="nomeProduto">Samsung Galaxy Tab S6 Lite (2024)</h2>
+                    <p class="preco">R$ 1.799</p>
+                    <button class="comprar"><a href="./Samsung_Galaxy_Tab_S6_Lite_(2024).html">comprar</a></button>
+                </div>
+
+                <div class="produtos">
+                    <a href="./Positivo_Vision_TAB_10.html"><img class="imgProdutos" src="../img/Produtos/Positivo_Vision_TAB_10_img1.jpeg" alt="imagemProduto"></a>
+                    <h2 class="nomeProduto">Positivo Vision TAB 10</h2>
+                    <p class="preco">R$ 1.099</p>
+                    <button class="comprar"><a href="./Positivo_Vision_TAB_10.html">comprar</a></button>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+        <script src="../js/main.js"></script>
+    </body>
+</html>

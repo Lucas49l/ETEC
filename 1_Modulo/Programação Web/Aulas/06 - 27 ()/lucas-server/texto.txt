@@ -1,0 +1,38 @@
+material icons
+Apache = servidor, o local
+Client-side
+server-side
+
+html -> requisitar - banco
+
+POST = inserir dados do formulário
+GET = pegar alguma informação
+
+caminho xamp servidor
+http://localhost/lucas-server/website/php/login.php
+
+localhost = htdocs
+
+
+msql erro xamp
+
+1. copiar data
+2. renomear para data_odd
+3. ir e backup
+4. copiar tudo
+5. voltar e apagar tudo em data
+7. colar o que copiou em backup em data
+
+ddl?
+
+out = sitema para o usuario ver
+input = usuario para o sitema 
+
+CRUD
+Atualizar
+Cadastrar
+Consultar
+remover
+
+classe = modelo
+objeto é o fruto de uma ou mais classes

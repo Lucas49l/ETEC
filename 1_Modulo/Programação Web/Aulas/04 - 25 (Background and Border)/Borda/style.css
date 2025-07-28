@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Aboreto';
+    src: url(/Aboreto-Regular.ttf);
+}
+
+body{
+    font-family: Aboreto;
+    background-image: linear-gradient(80deg, #f7fbfe6e,#5ec2ecfd);
+    text-align: center;
+    justify-items: center; /*Centraliza a caixa*/
+}
+
+h1{
+    border: 5px outset black;
+    background-color: hsl(236, 86%, 77%);
+    padding: 10px;
+    width: 60%;
+    /*border-radius: 100px;*/
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    
+}
+
+.um{
+    color:blue ;
+}
+.dois{
+    color: rgb(255, 255, 255);
+}
+.tres{
+    color: #48ff00;
+}
+.quatro{
+    color:red ;
+}

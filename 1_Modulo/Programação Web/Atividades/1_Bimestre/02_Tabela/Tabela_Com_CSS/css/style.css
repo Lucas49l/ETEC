@@ -1,0 +1,113 @@
+@font-face{
+    font-family:"BonaNova";
+    src: url("../font/Bona_Nova_SC/BonaNovaSC-Bold.ttf");
+}
+@font-face{
+    font-family:"BonaNovaRegular";
+    src: url("../font/Bona_Nova_SC/BonaNovaSC-Regular.ttf");
+}
+@font-face{
+    font-family:"BonaNovaItalic";
+    src: url("../font/Bona_Nova_SC/BonaNovaSC-Italic.ttf");
+}
+@font-face{
+    font-family:"kablammo";
+    src: url("../font/Kablammo/Kablammo-Regular-VariableFont_MORF.ttf");
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    width: 920px;
+    margin: auto;
+    background: linear-gradient(to bottom, #d66508,#2196f3,#000000);
+}
+h1{
+    font-family:"kablammo";
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px #071e31;
+}
+table{
+    box-shadow: 10px 10px 10px black;
+}
+table tr td{
+    padding: 10px 5px;
+    text-align: center;
+    height: 20px;
+    font-family: "BonaNova";
+    font-size: 18px;
+    color: #071e31;
+    vertical-align: middle;
+}
+thead .dia{
+    background-color: #071e31;
+    border: 2px solid #000000;
+}
+thead .dia th{
+    font-family:"BonaNovaItalic";
+    font-weight: bolder;
+    font-size: 30px;
+    color: #2196f3;
+    padding: 3px;
+    letter-spacing: 4px;
+}
+thead .dia .hr{
+    font-size: 16px;
+    letter-spacing: 0px;
+    width: 10px;
+    color: #ffffff;
+    box-shadow: 0px 10px 10px black;
+}
+table tr .hora{
+    border-top: 2px solid #000000;   
+    background-color: #020427;
+    color: #ffffff;
+    font-family:"BonaNovaRegular";
+    padding: 20px;
+    font-size: 15px;
+    box-shadow: 10px 10px 10px black;
+}
+p{
+    margin: 5px;
+}
+table tr .none{
+    opacity: 0;
+    visibility: hidden;
+    border: none;
+}
+.imagem td{
+    padding: 0;
+    border: 2px solid #000000;
+    background: linear-gradient(to bottom right, #d66508,#2196f3,#000000);
+}
+.imagem img{
+    width: 80%;
+    height: 5em;
+    border-top: none;
+    border-right: 2px solid #000000;
+    border-left: 2px solid  #000000;
+    border-bottom: 2px solid #000000;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.professor td{
+    font-family:"BonaNovaItalic";
+    font-size: 15px;
+    text-shadow: 1px 1px black;
+    color: rgb(225, 246, 255);
+    letter-spacing: 2px;
+    background-color: #020427;
+    border-left: solid 2px #000000;
+    border-right: solid 2px #000000;
+    border-bottom: solid 2px black;
+}
+.aulas td{
+    border-left: solid 2px #000000;
+    border-right: solid 2px #000000;
+    border-bottom: solid 1px black;
+    background-color: #2196f3;
+}

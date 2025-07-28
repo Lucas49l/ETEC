@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastrar usuário</title>
+</head>
+<body>
+    <main class="container-principal">
+        <div class="container-formulario">
+            <h2>Formulário de Cadastro</h2>
+            <hr>
+            <form method="POST" action="../php/usuarioController.php"> 
+                <!--name, campo para a linguagem de programação-->
+                <input type="text" name="NomeFormulario" placeholder="Digite seu Nome">
+                <input type="email" name="emailFormulario" placeholder="Digite seu E-mail">
+                <input type="password" name="senhaFormulario" placeholder="Digite sua Senha">   
+                <!--submit envia dados para o action-->
+                <input type="submit" name="requisicao" Value="Atualizar">            
+                <input type="submit" name="requisicao" Value="Cadastrar">            
+                <input type="submit" name="requisicao" Value="Consultar">            
+                <input type="submit" name="requisicao" Value="Remover">            
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    background: url(../img/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color:red;
+    font-family: Algerian;
+    font-size: 40px;
+    background: #dcdcdc;
+    width: 80%;
+    text-align: center;
+    height:50px;
+}
+p{
+    font-family:Brush Script MT;
+    font-size: 70px;
+    background: #6959cd;
+    height: 100px;
+    width: 80%;
+}
+#importante{
+    background-color: coral;
+    color: white;
+    width: 80%;
+    height: 50px;
+}
+.paragrafo{
+    background-color: #00ff00;
+    height: 80px;
+    color:white;
+    width: 80%;
+}
+.texto{
+    background-color: #ff4400;
+    height: 80px;
+    color:rgb(255, 255, 255);
+    width: 80%;
+}

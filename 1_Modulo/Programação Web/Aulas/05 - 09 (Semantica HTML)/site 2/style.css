@@ -1,0 +1,50 @@
+body{
+    background-color: #e8f4f5;
+}
+
+h2{
+    color: darkblue;
+    text-align: center;
+    background-color: #69a0fa;
+    height: 50px;
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+    line-height: #2f4f4f;  
+}
+
+.destaque{
+    background-color: red;
+}
+
+nav{
+    float: right;
+    }
+    
+nav ul li{
+    display: inline;
+    border:2px solid #3d2e2e;
+    margin-left: 50PX;
+    padding: 10px;
+    background-color: #ff00ff;
+}
+    
+header{
+    background-color:rgb(73, 50, 205);
+    height: 70px;
+    color: red;
+    padding: 5px;
+    margin: auto 5px;
+}
+
+img{
+    width: 70px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+
+main{
+    margin: auto 5px;
+}

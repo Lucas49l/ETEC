@@ -1,0 +1,19 @@
+CREATE DATABASE caixaeletronico;
+USE caixaeletronico;
+CREATE TABLE contas(
+    id int primary key auto_increment,
+    titular varchar(100),
+    agencia int,
+    conta int, 
+    senha varchar(32),
+    saldo float
+);
+
+CREATE TABLE historico(
+    id int primary key auto_increment,
+    id_conta int,
+    tipo TINYINT,
+    valor float,
+    data_operacao datetime
+);
+INSERT INTO contas SET titular = "Fabio Claret", agencia = "123", conta = "321", senha = MD5("123"), saldo = 1000

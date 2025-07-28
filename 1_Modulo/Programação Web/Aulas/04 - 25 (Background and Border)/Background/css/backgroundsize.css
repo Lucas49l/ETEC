@@ -1,0 +1,18 @@
+body{
+    background: url('../img/imagem.jpg');
+    color: aliceblue;
+} 
+
+h1{
+    background: url('../img/img2.jpeg');
+    background-size: 100%;
+    height: 300px;
+}
+p{
+    background: url('../img/img\ 3.jpeg');
+    background-size: 200px ;
+    background-repeat: space;
+    margin: 30px;
+    padding: 5%;
+    height: 100px;
+}

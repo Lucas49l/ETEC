@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(180, 176, 183);
+    height: 80px;
+    padding: 2%;
+}
+
+#titulo_principal {
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+}
+
+#grid_produtos {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /*3 colunas com o mesmo tamanh*/
+    gap:20px 0px;
+    padding: 2%;
+    place-items: center; /*Centraliza as divs no centro*/
+}
+
+.img_produtos {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+#img-1 {
+    background-image: url("../img/tenis1.jpg");
+    background-size: 300px 250px ;
+    background-repeat: no-repeat;
+}
+
+#img-2 {
+    background-image: url("../img/tenis2.jpg");
+    background-size: 300px 250px ;
+    background-repeat: no-repeat;
+}
+
+#img-3 {
+    background-image: url("../img/tenis3.jpg");
+    background-size: 300px 250px ;
+    background-repeat: no-repeat;
+}
+
+#img-4 {
+    background-image: url("../img/tenis4.jpg");
+    background-size: 300px 250px ;
+    background-repeat: no-repeat;
+}
+
+#img-5 {
+    background-image: url("../img/tenis5.jpg");
+    background-size: 300px 250px ;
+    background-repeat: no-repeat;
+}
+
+#img-6 {
+    background-image: url("../img/tenis6.jpg");
+    background-size: 300px 250px ;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    border-left: 5px groove #9f9a9a;
+}
+
