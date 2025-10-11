@@ -1,8 +1,0 @@
-Nome do dispositivo	Lab3-12
-Nome completo do dispositivo	Lab3-12.uirapuru.br
-Processador	11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz   2.61 GHz
-RAM instalada	16,0 GB (utilizável: 15,7 GB)
-ID do dispositivo	FE3E67F7-2866-484F-A6AF-C9B15E174101
-ID do Produto	00329-10331-24205-AA853
-Tipo de sistema	Sistema operacional de 64 bits, processador baseado em x64
-Caneta e toque	Nenhuma entrada à caneta ou por toque disponível para este vídeo
