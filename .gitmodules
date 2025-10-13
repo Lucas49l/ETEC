@@ -1,0 +1,21 @@
+[submodule "2_Modulo/Programação de Aplicativos Mobile 1/Mod2_PAM1"]
+	path = 2_Modulo/Programação de Aplicativos Mobile 1/Mod2_PAM1
+	url = https://github.com/Lucas49l/Mod2_PAM1.git
+[submodule "2_Modulo/Programação Web 2/Mod2_PW2"]
+	path = 2_Modulo/Programação Web 2/Mod2_PW2
+	url = https://github.com/Lucas49l/Mod2_PW2.git
+[submodule "2_Modulo/Desenvolvimento de Sistemas 1/Mod2_DS"]
+	path = 2_Modulo/Desenvolvimento de Sistemas 1/Mod2_DS
+	url = https://github.com/Lucas49l/Mod2_DS.git
+[submodule "2_Modulo/Banco de Dados 2/Mod2_BD2"]
+	path = 2_Modulo/Banco de Dados 2/Mod2_BD2
+	url = https://github.com/Lucas49l/Mod2_BD2.git
+[submodule "2_Modulo/Analise e Projetos e Sistemas/Mod2_APS"]
+	path = 2_Modulo/Analise e Projetos e Sistemas/Mod2_APS
+	url = https://github.com/Lucas49l/Mod2_APS.git
+[submodule "2_Modulo/Sistemas Embarcados/Mod2_SE"]
+	path = 2_Modulo/Sistemas Embarcados/Mod2_SE
+	url = https://github.com/Lucas49l/Mod2_SE.git
+[submodule "2_Modulo/Planejamento do Trabalho de Conclusão de Curso/Mod2_PTCC"]
+	path = 2_Modulo/Planejamento do Trabalho de Conclusão de Curso/Mod2_PTCC
+	url = https://github.com/Lucas49l/Mod2_PTCC.git
